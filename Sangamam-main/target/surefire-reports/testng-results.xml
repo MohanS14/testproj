@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-26T01:32:55 BST" name="Suite" finished-at="2023-05-26T01:33:54 BST" duration-ms="58682">
+    <groups>
+    </groups>
+    <test started-at="2023-05-26T01:32:55 BST" name="Test" finished-at="2023-05-26T01:33:54 BST" duration-ms="58682">
+      <class name="tests.CreateLeadTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.CreateLeadTests@635eaaf1]" started-at="2023-05-26T01:32:55 BST" name="init" finished-at="2023-05-26T01:32:55 BST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUpTests()[pri:0, instance:tests.CreateLeadTests@635eaaf1]" started-at="2023-05-26T01:32:55 BST" name="setUpTests" finished-at="2023-05-26T01:32:55 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method is-config="true" signature="setUpData1()[pri:0, instance:tests.CreateLeadTests@635eaaf1]" started-at="2023-05-26T01:32:55 BST" name="setUpData1" finished-at="2023-05-26T01:32:55 BST" depends-on-methods="hooks.TestNgHooks.setUpTests" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpData1 -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.CreateLeadTests@635eaaf1]" started-at="2023-05-26T01:32:55 BST" name="beforeClass" finished-at="2023-05-26T01:32:55 BST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="invoke()[pri:0, instance:tests.CreateLeadTests@635eaaf1]" started-at="2023-05-26T01:32:56 BST" name="invoke" finished-at="2023-05-26T01:33:12 BST" duration-ms="16491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CreateLeadTests@635eaaf1]" started-at="2023-05-26T01:33:12 BST" name="login" data-provider="FetchExcelData" finished-at="2023-05-26T01:33:54 BST" duration-ms="41560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Radhakrishnan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.CreateLeadTests@635eaaf1]" started-at="2023-05-26T01:33:54 BST" name="close" finished-at="2023-05-26T01:33:54 BST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.CreateLeadTests@635eaaf1]" started-at="2023-05-26T01:33:54 BST" name="afterClass" finished-at="2023-05-26T01:33:54 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="completeTests()[pri:0, instance:tests.CreateLeadTests@635eaaf1]" started-at="2023-05-26T01:33:54 BST" name="completeTests" finished-at="2023-05-26T01:33:54 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeTests -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateLeadTests@635eaaf1]" started-at="2023-05-26T01:33:54 BST" name="tearDown" finished-at="2023-05-26T01:33:54 BST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateLeadTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
